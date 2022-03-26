@@ -32,6 +32,7 @@ public class UserController {
 		
 	}
 	
+	// This endpoint is use to get list of all the users
 	@GetMapping
 	public ResponseEntity<List<User>> getAllUsers(){
 		
