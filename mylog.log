@@ -1,0 +1,24 @@
+[2022-02-19T18:33:53.053Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting UserServiceApplication using Java 1.8.0_211 on DESKTOP-OULUVO9 with PID 9620 (E:\Java Contents\user\target\classes started by Atul in E:\Java Contents\user)
+[2022-02-19T18:33:53.053Z] [org.springframework.boot.SpringApplication] [restartedMain] [637] [INFO ] No active profile set, falling back to default profiles: default
+[2022-02-19T18:33:54.054Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-02-19T18:33:54.054Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+[2022-02-19T18:33:56.056Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8082 (http)
+[2022-02-19T18:33:56.056Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-02-19T18:33:56.056Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.56]
+[2022-02-19T18:33:56.056Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-02-19T18:33:56.056Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [290] [INFO ] Root WebApplicationContext: initialization completed in 3569 ms
+[2022-02-19T18:33:57.057Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-02-19T18:33:57.057Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2022-02-19T18:33:57.057Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2022-02-19T18:33:57.057Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2022-02-19T18:33:57.057Z] [org.hibernate.id.SequenceGenerator] [restartedMain] [89] [WARN ] HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+[2022-02-19T18:33:59.059Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-02-19T18:33:59.059Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-02-19T18:34:00.000Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-02-19T18:34:01.001Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2022-02-19T18:34:01.001Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8082 (http) with context path ''
+[2022-02-19T18:34:01.001Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started UserServiceApplication in 10.685 seconds (JVM running for 595.224)
+[2022-02-19T18:34:01.001Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2022-02-19T18:38:42.042Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-11] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-02-19T18:38:42.042Z] [com.zaxxer.hikari.HikariDataSource] [Thread-11] [350] [INFO ] HikariPoolBooks - Shutdown initiated...
+[2022-02-19T18:38:42.042Z] [com.zaxxer.hikari.HikariDataSource] [Thread-11] [352] [INFO ] HikariPoolBooks - Shutdown completed.

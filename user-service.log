@@ -1,0 +1,913 @@
+[2022-02-19T18:38:43.043Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting UserServiceApplication using Java 1.8.0_211 on DESKTOP-OULUVO9 with PID 9620 (E:\Java Contents\user\target\classes started by Atul in E:\Java Contents\user)
+[2022-02-19T18:38:43.043Z] [org.springframework.boot.SpringApplication] [restartedMain] [637] [INFO ] No active profile set, falling back to default profiles: default
+[2022-02-19T18:38:43.043Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-02-19T18:38:43.043Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interfaces.
+[2022-02-19T18:38:45.045Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8082 (http)
+[2022-02-19T18:38:45.045Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-02-19T18:38:45.045Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.56]
+[2022-02-19T18:38:45.045Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-02-19T18:38:45.045Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [290] [INFO ] Root WebApplicationContext: initialization completed in 2196 ms
+[2022-02-19T18:38:45.045Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-02-19T18:38:46.046Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2022-02-19T18:38:46.046Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2022-02-19T18:38:46.046Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2022-02-19T18:38:46.046Z] [org.hibernate.id.SequenceGenerator] [restartedMain] [89] [WARN ] HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+[2022-02-19T18:38:47.047Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-02-19T18:38:47.047Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-02-19T18:38:48.048Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-02-19T18:38:48.048Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2022-02-19T18:38:48.048Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8082 (http) with context path ''
+[2022-02-19T18:38:48.048Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started UserServiceApplication in 5.47 seconds (JVM running for 881.968)
+[2022-02-19T18:38:48.048Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2022-02-19T18:58:34.034Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting UserServiceApplication using Java 1.8.0_211 on DESKTOP-OULUVO9 with PID 6644 (E:\Java Contents\user\target\classes started by Atul in E:\Java Contents\user)
+[2022-02-19T18:58:34.034Z] [org.springframework.boot.SpringApplication] [restartedMain] [637] [INFO ] No active profile set, falling back to default profiles: default
+[2022-02-19T18:58:34.034Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] The Class-Path manifest attribute in C:\Users\Atul\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.3.0.0\ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/Atul/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/oraclepki.jar
+[2022-02-19T18:58:34.034Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-02-19T18:58:34.034Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-02-19T18:58:37.037Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-02-19T18:58:37.037Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 166 ms. Found 1 JPA repository interfaces.
+[2022-02-19T18:58:40.040Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8082 (http)
+[2022-02-19T18:58:40.040Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-02-19T18:58:40.040Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.56]
+[2022-02-19T18:58:40.040Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-02-19T18:58:40.040Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [290] [INFO ] Root WebApplicationContext: initialization completed in 5679 ms
+[2022-02-19T18:58:41.041Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-02-19T18:58:41.041Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.4.Final
+[2022-02-19T18:58:41.041Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-02-19T18:58:42.042Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2022-02-19T18:58:44.044Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2022-02-19T18:58:44.044Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2022-02-19T18:58:45.045Z] [org.hibernate.id.SequenceGenerator] [restartedMain] [89] [WARN ] HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+[2022-02-19T18:58:48.048Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-02-19T18:58:48.048Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-02-19T18:58:49.049Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-02-19T18:58:50.050Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2022-02-19T18:58:51.051Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8082 (http) with context path ''
+[2022-02-19T18:58:51.051Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started UserServiceApplication in 17.811 seconds (JVM running for 19.847)
+[2022-02-19T19:00:59.059Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8082-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-02-19T19:00:59.059Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-02-19T19:00:59.059Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-2] [547] [INFO ] Completed initialization in 41 ms
+[2022-02-19T19:01:01.001Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-2] [32] [INFO ] [User [id=1, name=sandip, email=sandip@gmail.com, city=mumbai], User [id=2, name=pradeep, email=pradeep@gmail.com, city=chenai], User [id=3, name=manoj, email=manoj@gmail.com, city=singapore]]
+[2022-02-19T19:03:05.005Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-5] [24] [INFO ] User [id=4, name=atul, email=atul@gmail.com, city=pune]
+[2022-02-19T19:04:25.025Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-8] [45] [INFO ] Deleteing user by:3
+[2022-02-19T19:04:26.026Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-8] [47] [INFO ] record deleted successfully
+[2022-02-19T19:05:16.016Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-9] [32] [INFO ] [User [id=1, name=sandip, email=sandip@gmail.com, city=mumbai], User [id=2, name=pradeep, email=pradeep@gmail.com, city=chenai], User [id=4, name=atul, email=atul@gmail.com, city=pune]]
+[2022-02-19T19:05:36.036Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-10] [45] [INFO ] Deleteing user by:5
+[2022-02-19T19:05:36.036Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8082-exec-10] [175] [ERROR] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.EmptyResultDataAccessException: No class com.edusol.user.model.User entity with id 5 exists!] with root cause
+org.springframework.dao.EmptyResultDataAccessException: No class com.edusol.user.model.User entity with id 5 exists!
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.lambda$deleteById$0(SimpleJpaRepository.java:170)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.deleteById(SimpleJpaRepository.java:169)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:529)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:639)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:163)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy101.deleteById(Unknown Source)
+	at com.edusol.user.service.UserService.deleteUser(UserService.java:46)
+	at com.edusol.user.controller.UserController.deleteUser(UserController.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+[2022-02-19T19:16:11.011Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting UserServiceApplication using Java 1.8.0_211 on DESKTOP-OULUVO9 with PID 6840 (E:\Java Contents\user\target\classes started by Atul in E:\Java Contents\user)
+[2022-02-19T19:16:11.011Z] [org.springframework.boot.SpringApplication] [restartedMain] [637] [INFO ] No active profile set, falling back to default profiles: default
+[2022-02-19T19:16:11.011Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] The Class-Path manifest attribute in C:\Users\Atul\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.3.0.0\ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/Atul/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/oraclepki.jar
+[2022-02-19T19:16:11.011Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-02-19T19:16:11.011Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-02-19T19:16:14.014Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-02-19T19:16:14.014Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 155 ms. Found 1 JPA repository interfaces.
+[2022-02-19T19:16:16.016Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8082 (http)
+[2022-02-19T19:16:16.016Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-02-19T19:16:16.016Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.56]
+[2022-02-19T19:16:17.017Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-02-19T19:16:17.017Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [290] [INFO ] Root WebApplicationContext: initialization completed in 5880 ms
+[2022-02-19T19:16:17.017Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-02-19T19:16:18.018Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.4.Final
+[2022-02-19T19:16:18.018Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-02-19T19:16:18.018Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2022-02-19T19:16:20.020Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2022-02-19T19:16:20.020Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2022-02-19T19:16:21.021Z] [org.hibernate.id.SequenceGenerator] [restartedMain] [89] [WARN ] HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+[2022-02-19T19:16:24.024Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-02-19T19:16:24.024Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-02-19T19:16:26.026Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-02-19T19:16:27.027Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2022-02-19T19:16:27.027Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8082 (http) with context path ''
+[2022-02-19T19:16:27.027Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started UserServiceApplication in 17.514 seconds (JVM running for 19.485)
+[2022-02-19T19:17:09.009Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8082-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-02-19T19:17:09.009Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-02-19T19:17:09.009Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-1] [547] [INFO ] Completed initialization in 3 ms
+[2022-02-19T19:17:09.009Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-1] [45] [INFO ] Deleteing user by:5
+[2022-02-19T19:17:10.010Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-1] [53] [INFO ] record not  found
+[2022-02-19T19:17:53.053Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-3] [32] [INFO ] [User [id=1, name=sandip, email=sandip@gmail.com, city=mumbai], User [id=2, name=pradeep, email=pradeep@gmail.com, city=chenai], User [id=4, name=atul, email=atul@gmail.com, city=pune]]
+[2022-02-19T19:18:07.007Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-4] [45] [INFO ] Deleteing user by:4
+[2022-02-19T19:18:07.007Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-4] [50] [INFO ] record deleted successfully
+[2022-02-19T19:18:20.020Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-5] [32] [INFO ] [User [id=1, name=sandip, email=sandip@gmail.com, city=mumbai], User [id=2, name=pradeep, email=pradeep@gmail.com, city=chenai]]
+[2022-02-19T19:35:57.057Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-9] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-02-19T19:35:57.057Z] [com.zaxxer.hikari.HikariDataSource] [Thread-9] [350] [INFO ] HikariPoolBooks - Shutdown initiated...
+[2022-02-19T19:35:57.057Z] [com.zaxxer.hikari.HikariDataSource] [Thread-9] [352] [INFO ] HikariPoolBooks - Shutdown completed.
+[2022-02-19T19:35:59.059Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting UserServiceApplication using Java 1.8.0_211 on DESKTOP-OULUVO9 with PID 6840 (E:\Java Contents\user\target\classes started by Atul in E:\Java Contents\user)
+[2022-02-19T19:35:59.059Z] [org.springframework.boot.SpringApplication] [restartedMain] [637] [INFO ] No active profile set, falling back to default profiles: default
+[2022-02-19T19:35:59.059Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-02-19T19:35:59.059Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
+[2022-02-19T19:36:00.000Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8082 (http)
+[2022-02-19T19:36:00.000Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-02-19T19:36:00.000Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.56]
+[2022-02-19T19:36:00.000Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-02-19T19:36:00.000Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [290] [INFO ] Root WebApplicationContext: initialization completed in 1400 ms
+[2022-02-19T19:36:01.001Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-02-19T19:36:01.001Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2022-02-19T19:36:02.002Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2022-02-19T19:36:02.002Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2022-02-19T19:36:02.002Z] [org.hibernate.id.SequenceGenerator] [restartedMain] [89] [WARN ] HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+[2022-02-19T19:36:03.003Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-02-19T19:36:03.003Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-02-19T19:36:03.003Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-02-19T19:36:03.003Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2022-02-19T19:36:03.003Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8082 (http) with context path ''
+[2022-02-19T19:36:03.003Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started UserServiceApplication in 5.638 seconds (JVM running for 1195.999)
+[2022-02-19T19:36:03.003Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2022-02-19T19:50:21.021Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-15] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-02-19T19:50:21.021Z] [com.zaxxer.hikari.HikariDataSource] [Thread-15] [350] [INFO ] HikariPoolBooks - Shutdown initiated...
+[2022-02-19T19:50:21.021Z] [com.zaxxer.hikari.HikariDataSource] [Thread-15] [352] [INFO ] HikariPoolBooks - Shutdown completed.
+[2022-02-19T19:50:21.021Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting UserServiceApplication using Java 1.8.0_211 on DESKTOP-OULUVO9 with PID 6840 (E:\Java Contents\user\target\classes started by Atul in E:\Java Contents\user)
+[2022-02-19T19:50:21.021Z] [org.springframework.boot.SpringApplication] [restartedMain] [637] [INFO ] No active profile set, falling back to default profiles: default
+[2022-02-19T19:50:22.022Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-02-19T19:50:22.022Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+[2022-02-19T19:50:22.022Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8082 (http)
+[2022-02-19T19:50:22.022Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-02-19T19:50:22.022Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.56]
+[2022-02-19T19:50:22.022Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-02-19T19:50:22.022Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [290] [INFO ] Root WebApplicationContext: initialization completed in 912 ms
+[2022-02-19T19:50:22.022Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-02-19T19:50:22.022Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2022-02-19T19:50:22.022Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2022-02-19T19:50:22.022Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2022-02-19T19:50:22.022Z] [org.hibernate.id.SequenceGenerator] [restartedMain] [89] [WARN ] HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+[2022-02-19T19:50:23.023Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-02-19T19:50:23.023Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-02-19T19:50:24.024Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-02-19T19:50:24.024Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2022-02-19T19:50:24.024Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8082 (http) with context path ''
+[2022-02-19T19:50:24.024Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started UserServiceApplication in 2.736 seconds (JVM running for 2056.445)
+[2022-02-19T19:50:24.024Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2022-02-19T19:50:42.042Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8082-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-02-19T19:50:42.042Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-02-19T19:50:42.042Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-2] [547] [INFO ] Completed initialization in 2 ms
+[2022-02-19T19:50:42.042Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-2] [45] [INFO ] Deleteing user by:10
+[2022-02-19T19:50:42.042Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-2] [53] [ERROR] record not  found
+[2022-02-26T08:18:51.051Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting UserServiceApplication using Java 1.8.0_211 on DESKTOP-OULUVO9 with PID 6880 (E:\Java Contents\user\target\classes started by Atul in E:\Java Contents\user)
+[2022-02-26T08:18:52.052Z] [org.springframework.boot.SpringApplication] [restartedMain] [637] [INFO ] No active profile set, falling back to default profiles: default
+[2022-02-26T08:18:53.053Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] The Class-Path manifest attribute in C:\Users\Atul\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.3.0.0\ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/Atul/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/oraclepki.jar
+[2022-02-26T08:18:53.053Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-02-26T08:18:53.053Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-02-26T08:18:59.059Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-02-26T08:18:59.059Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 176 ms. Found 1 JPA repository interfaces.
+[2022-02-26T08:19:03.003Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8082 (http)
+[2022-02-26T08:19:03.003Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-02-26T08:19:03.003Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.56]
+[2022-02-26T08:19:03.003Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-02-26T08:19:03.003Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [290] [INFO ] Root WebApplicationContext: initialization completed in 10681 ms
+[2022-02-26T08:19:05.005Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-02-26T08:19:05.005Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.4.Final
+[2022-02-26T08:19:06.006Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-02-26T08:19:07.007Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2022-02-26T08:19:13.013Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2022-02-26T08:19:13.013Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2022-02-26T08:19:14.014Z] [org.hibernate.id.SequenceGenerator] [restartedMain] [89] [WARN ] HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+[2022-02-26T08:19:24.024Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-02-26T08:19:24.024Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-02-26T08:19:26.026Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-02-26T08:19:28.028Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2022-02-26T08:19:28.028Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8082 (http) with context path ''
+[2022-02-26T08:19:28.028Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started UserServiceApplication in 45.497 seconds (JVM running for 55.064)
+[2022-02-26T08:20:23.023Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8082-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-02-26T08:20:23.023Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-02-26T08:20:23.023Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-1] [547] [INFO ] Completed initialization in 5 ms
+[2022-02-26T08:20:25.025Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-1] [32] [INFO ] [User [id=1, name=sandip, email=sandip@gmail.com, city=mumbai], User [id=2, name=pradeep, email=pradeep@gmail.com, city=chenai]]
+[2022-02-26T08:23:12.012Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-5] [45] [INFO ] Deleteing user by:10
+[2022-02-26T08:23:13.013Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-5] [53] [ERROR] record not  found
+[2022-02-26T08:31:56.056Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-9] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-02-26T08:31:57.057Z] [com.zaxxer.hikari.HikariDataSource] [Thread-9] [350] [INFO ] HikariPoolBooks - Shutdown initiated...
+[2022-02-26T08:31:57.057Z] [com.zaxxer.hikari.HikariDataSource] [Thread-9] [352] [INFO ] HikariPoolBooks - Shutdown completed.
+[2022-02-26T08:32:02.002Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting UserServiceApplication using Java 1.8.0_211 on DESKTOP-OULUVO9 with PID 6880 (E:\Java Contents\user\target\classes started by Atul in E:\Java Contents\user)
+[2022-02-26T08:32:02.002Z] [org.springframework.boot.SpringApplication] [restartedMain] [637] [INFO ] No active profile set, falling back to default profiles: default
+[2022-02-26T08:32:03.003Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-02-26T08:32:03.003Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+[2022-02-26T08:32:05.005Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8082 (http)
+[2022-02-26T08:32:05.005Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-02-26T08:32:05.005Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.56]
+[2022-02-26T08:32:05.005Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-02-26T08:32:05.005Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [290] [INFO ] Root WebApplicationContext: initialization completed in 3048 ms
+[2022-02-26T08:32:05.005Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-02-26T08:32:05.005Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2022-02-26T08:32:06.006Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2022-02-26T08:32:06.006Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2022-02-26T08:32:06.006Z] [org.hibernate.id.SequenceGenerator] [restartedMain] [89] [WARN ] HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+[2022-02-26T08:32:07.007Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-02-26T08:32:07.007Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-02-26T08:32:07.007Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-02-26T08:32:07.007Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2022-02-26T08:32:08.008Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8082 (http) with context path ''
+[2022-02-26T08:32:08.008Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started UserServiceApplication in 6.216 seconds (JVM running for 814.569)
+[2022-02-26T08:32:08.008Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2022-02-26T08:33:26.026Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8082-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-02-26T08:33:26.026Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-02-26T08:33:26.026Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-2] [547] [INFO ] Completed initialization in 1 ms
+[2022-02-26T08:33:27.027Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-2] [24] [INFO ] User [id=21, name=pallavi, email=pallavi@gmail.com, city=MP]
+[2022-02-26T08:35:00.000Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-13] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-02-26T08:35:00.000Z] [com.zaxxer.hikari.HikariDataSource] [Thread-13] [350] [INFO ] HikariPoolBooks - Shutdown initiated...
+[2022-02-26T08:35:00.000Z] [com.zaxxer.hikari.HikariDataSource] [Thread-13] [352] [INFO ] HikariPoolBooks - Shutdown completed.
+[2022-02-26T08:35:00.000Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting UserServiceApplication using Java 1.8.0_211 on DESKTOP-OULUVO9 with PID 6880 (E:\Java Contents\user\target\classes started by Atul in E:\Java Contents\user)
+[2022-02-26T08:35:00.000Z] [org.springframework.boot.SpringApplication] [restartedMain] [637] [INFO ] No active profile set, falling back to default profiles: default
+[2022-02-26T08:35:01.001Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-02-26T08:35:01.001Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+[2022-02-26T08:35:01.001Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8082 (http)
+[2022-02-26T08:35:01.001Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-02-26T08:35:01.001Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.56]
+[2022-02-26T08:35:02.002Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-02-26T08:35:02.002Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [290] [INFO ] Root WebApplicationContext: initialization completed in 1152 ms
+[2022-02-26T08:35:02.002Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-02-26T08:35:02.002Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2022-02-26T08:35:02.002Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2022-02-26T08:35:02.002Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2022-02-26T08:35:02.002Z] [org.hibernate.id.SequenceGenerator] [restartedMain] [89] [WARN ] HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+[2022-02-26T08:35:03.003Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-02-26T08:35:03.003Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-02-26T08:35:03.003Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-02-26T08:35:03.003Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2022-02-26T08:35:03.003Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8082 (http) with context path ''
+[2022-02-26T08:35:03.003Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started UserServiceApplication in 2.753 seconds (JVM running for 990.168)
+[2022-02-26T08:35:03.003Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2022-02-26T08:44:57.057Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-19] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-02-26T08:44:57.057Z] [com.zaxxer.hikari.HikariDataSource] [Thread-19] [350] [INFO ] HikariPoolBooks - Shutdown initiated...
+[2022-02-26T08:44:57.057Z] [com.zaxxer.hikari.HikariDataSource] [Thread-19] [352] [INFO ] HikariPoolBooks - Shutdown completed.
+[2022-02-26T08:44:57.057Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting UserServiceApplication using Java 1.8.0_211 on DESKTOP-OULUVO9 with PID 6880 (E:\Java Contents\user\target\classes started by Atul in E:\Java Contents\user)
+[2022-02-26T08:44:57.057Z] [org.springframework.boot.SpringApplication] [restartedMain] [637] [INFO ] No active profile set, falling back to default profiles: default
+[2022-02-26T08:44:58.058Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-02-26T08:44:58.058Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interfaces.
+[2022-02-26T08:44:58.058Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8082 (http)
+[2022-02-26T08:44:58.058Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-02-26T08:44:58.058Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.56]
+[2022-02-26T08:44:58.058Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-02-26T08:44:58.058Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [290] [INFO ] Root WebApplicationContext: initialization completed in 916 ms
+[2022-02-26T08:44:59.059Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-02-26T08:44:59.059Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2022-02-26T08:44:59.059Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2022-02-26T08:44:59.059Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2022-02-26T08:44:59.059Z] [org.hibernate.id.SequenceGenerator] [restartedMain] [89] [WARN ] HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+[2022-02-26T08:45:00.000Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-02-26T08:45:00.000Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-02-26T08:45:01.001Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-02-26T08:45:01.001Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2022-02-26T08:45:01.001Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8082 (http) with context path ''
+[2022-02-26T08:45:01.001Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started UserServiceApplication in 3.542 seconds (JVM running for 1587.971)
+[2022-02-26T08:45:01.001Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2022-02-26T08:45:22.022Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8082-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-02-26T08:45:22.022Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-02-26T08:45:22.022Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-2] [547] [INFO ] Completed initialization in 1 ms
+[2022-02-26T08:45:22.022Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-2] [32] [INFO ] [User [id=1, name=sandip, email=sandip@gmail.com, city=mumbai], User [id=2, name=pradeep, email=pradeep@gmail.com, city=chenai], User [id=21, name=pallavi, email=pallavi@gmail.com, city=MP]]
+[2022-02-26T08:49:26.026Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-24] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-02-26T08:49:26.026Z] [com.zaxxer.hikari.HikariDataSource] [Thread-24] [350] [INFO ] HikariPoolBooks - Shutdown initiated...
+[2022-02-26T08:49:26.026Z] [com.zaxxer.hikari.HikariDataSource] [Thread-24] [352] [INFO ] HikariPoolBooks - Shutdown completed.
+[2022-02-26T08:49:27.027Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting UserServiceApplication using Java 1.8.0_211 on DESKTOP-OULUVO9 with PID 6880 (E:\Java Contents\user\target\classes started by Atul in E:\Java Contents\user)
+[2022-02-26T08:49:27.027Z] [org.springframework.boot.SpringApplication] [restartedMain] [637] [INFO ] No active profile set, falling back to default profiles: default
+[2022-02-26T08:49:29.029Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-02-26T08:49:29.029Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+[2022-02-26T08:49:30.030Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8082 (http)
+[2022-02-26T08:49:30.030Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-02-26T08:49:30.030Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.56]
+[2022-02-26T08:49:30.030Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-02-26T08:49:30.030Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [290] [INFO ] Root WebApplicationContext: initialization completed in 3139 ms
+[2022-02-26T08:49:31.031Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-02-26T08:49:31.031Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2022-02-26T08:49:31.031Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2022-02-26T08:49:31.031Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2022-02-26T08:49:31.031Z] [org.hibernate.id.SequenceGenerator] [restartedMain] [89] [WARN ] HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+[2022-02-26T08:49:32.032Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-02-26T08:49:32.032Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-02-26T08:49:32.032Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-02-26T08:49:32.032Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2022-02-26T08:49:32.032Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8082 (http) with context path ''
+[2022-02-26T08:49:32.032Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started UserServiceApplication in 4.988 seconds (JVM running for 1859.063)
+[2022-02-26T08:49:32.032Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2022-02-26T08:49:34.034Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-30] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-02-26T08:49:34.034Z] [com.zaxxer.hikari.HikariDataSource] [Thread-30] [350] [INFO ] HikariPoolBooks - Shutdown initiated...
+[2022-02-26T08:49:34.034Z] [com.zaxxer.hikari.HikariDataSource] [Thread-30] [352] [INFO ] HikariPoolBooks - Shutdown completed.
+[2022-02-26T08:49:34.034Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting UserServiceApplication using Java 1.8.0_211 on DESKTOP-OULUVO9 with PID 6880 (E:\Java Contents\user\target\classes started by Atul in E:\Java Contents\user)
+[2022-02-26T08:49:34.034Z] [org.springframework.boot.SpringApplication] [restartedMain] [637] [INFO ] No active profile set, falling back to default profiles: default
+[2022-02-26T08:49:34.034Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-02-26T08:49:34.034Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+[2022-02-26T08:49:35.035Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8082 (http)
+[2022-02-26T08:49:35.035Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-02-26T08:49:35.035Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.56]
+[2022-02-26T08:49:35.035Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-02-26T08:49:35.035Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [290] [INFO ] Root WebApplicationContext: initialization completed in 496 ms
+[2022-02-26T08:49:35.035Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-02-26T08:49:35.035Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2022-02-26T08:49:35.035Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2022-02-26T08:49:35.035Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2022-02-26T08:49:35.035Z] [org.hibernate.id.SequenceGenerator] [restartedMain] [89] [WARN ] HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+[2022-02-26T08:49:36.036Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-02-26T08:49:36.036Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-02-26T08:49:36.036Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-02-26T08:49:36.036Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2022-02-26T08:49:36.036Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8082 (http) with context path ''
+[2022-02-26T08:49:36.036Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started UserServiceApplication in 1.622 seconds (JVM running for 1862.822)
+[2022-02-26T08:49:36.036Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2022-02-26T08:50:44.044Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8082-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-02-26T08:50:44.044Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-02-26T08:50:44.044Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-2] [547] [INFO ] Completed initialization in 2 ms
+[2022-02-26T08:50:44.044Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-2] [47] [INFO ] Deleteing user by:10
+[2022-02-26T08:50:44.044Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-2] [58] [ERROR] record not  found10
+[2022-02-26T08:51:17.017Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-3] [47] [INFO ] Deleteing user by:21
+[2022-02-26T08:51:18.018Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-3] [53] [INFO ] record deleted successfully21
+[2022-03-06T10:45:30.030Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting UserServiceApplication using Java 1.8.0_211 on DESKTOP-OULUVO9 with PID 11700 (E:\Java Contents\user\target\classes started by Atul in E:\Java Contents\user)
+[2022-03-06T10:45:30.030Z] [org.springframework.boot.SpringApplication] [restartedMain] [637] [INFO ] No active profile set, falling back to default profiles: default
+[2022-03-06T10:45:30.030Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] The Class-Path manifest attribute in C:\Users\Atul\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.3.0.0\ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/Atul/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/oraclepki.jar
+[2022-03-06T10:45:30.030Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-03-06T10:45:30.030Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-03-06T10:45:33.033Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-03-06T10:45:34.034Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 170 ms. Found 1 JPA repository interfaces.
+[2022-03-06T10:45:38.038Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8082 (http)
+[2022-03-06T10:45:38.038Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-03-06T10:45:38.038Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.56]
+[2022-03-06T10:45:38.038Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-03-06T10:45:38.038Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [290] [INFO ] Root WebApplicationContext: initialization completed in 8168 ms
+[2022-03-06T10:45:40.040Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-03-06T10:45:40.040Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.4.Final
+[2022-03-06T10:45:41.041Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-03-06T10:45:41.041Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2022-03-06T10:45:45.045Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2022-03-06T10:45:45.045Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2022-03-06T10:45:46.046Z] [org.hibernate.id.SequenceGenerator] [restartedMain] [89] [WARN ] HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+[2022-03-06T10:45:51.051Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-03-06T10:45:51.051Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-03-06T10:45:52.052Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-03-06T10:45:53.053Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2022-03-06T10:45:54.054Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8082 (http) with context path ''
+[2022-03-06T10:45:54.054Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started UserServiceApplication in 25.704 seconds (JVM running for 30.046)
+[2022-03-06T10:46:46.046Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8082-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-03-06T10:46:46.046Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-03-06T10:46:46.046Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-2] [547] [INFO ] Completed initialization in 3 ms
+[2022-03-06T10:46:48.048Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-2] [34] [INFO ] [User [id=1, name=sandip, email=sandip@gmail.com, city=mumbai], User [id=2, name=pradeep, email=pradeep@gmail.com, city=chenai]]
+[2022-03-06T10:49:59.059Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-4] [34] [INFO ] [User [id=1, name=sandip, email=sandip@gmail.com, city=mumbai], User [id=2, name=pradeep, email=pradeep@gmail.com, city=chenai]]
+[2022-03-06T10:51:47.047Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-6] [34] [INFO ] [User [id=1, name=sandip, email=sandip@gmail.com, city=mumbai], User [id=2, name=pradeep, email=pradeep@gmail.com, city=chenai]]
+[2022-03-06T10:53:34.034Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-8] [34] [INFO ] [User [id=1, name=sandip, email=sandip@gmail.com, city=mumbai], User [id=2, name=pradeep, email=pradeep@gmail.com, city=chenai]]
+[2022-03-06T10:55:53.053Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-10] [34] [INFO ] [User [id=1, name=sandip, email=sandip@gmail.com, city=mumbai], User [id=2, name=pradeep, email=pradeep@gmail.com, city=chenai]]
+[2022-03-06T10:57:07.007Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-2] [34] [INFO ] [User [id=1, name=sandip, email=sandip@gmail.com, city=mumbai], User [id=2, name=pradeep, email=pradeep@gmail.com, city=chenai]]
+[2022-03-06T11:00:09.009Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-4] [34] [INFO ] [User [id=1, name=sandip, email=sandip@gmail.com, city=mumbai], User [id=2, name=pradeep, email=pradeep@gmail.com, city=chenai]]
+[2022-03-06T11:03:16.016Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-6] [34] [INFO ] [User [id=1, name=sandip, email=sandip@gmail.com, city=mumbai], User [id=2, name=pradeep, email=pradeep@gmail.com, city=chenai]]
+[2022-03-06T12:46:41.041Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-8] [40] [INFO ] User [id=2, name=pradeep, email=pradeep@gmail.com, city=Banglore]
+[2022-03-06T12:46:48.048Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-8] [42] [INFO ] record updated successfully
+[2022-03-06T12:47:18.018Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-9] [34] [INFO ] [User [id=1, name=sandip, email=sandip@gmail.com, city=mumbai], User [id=2, name=pradeep, email=pradeep@gmail.com, city=Banglore]]
+[2022-03-06T13:17:54.054Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-1] [34] [INFO ] [User [id=1, name=sandip, email=sandip@gmail.com, city=mumbai], User [id=2, name=pradeep, email=pradeep@gmail.com, city=Banglore]]
+[2022-03-06T13:20:33.033Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-3] [47] [INFO ] Deleteing user by:2
+[2022-03-06T13:20:38.038Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-3] [53] [INFO ] record deleted successfully2
+[2022-03-06T13:20:51.051Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-4] [34] [INFO ] [User [id=1, name=sandip, email=sandip@gmail.com, city=mumbai]]
+[2022-03-12T10:01:02.002Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting UserServiceApplication using Java 1.8.0_211 on DESKTOP-OULUVO9 with PID 224 (E:\Java Contents\user\target\classes started by Atul in E:\Java Contents\user)
+[2022-03-12T10:01:02.002Z] [org.springframework.boot.SpringApplication] [restartedMain] [637] [INFO ] No active profile set, falling back to default profiles: default
+[2022-03-12T10:01:02.002Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] The Class-Path manifest attribute in C:\Users\Atul\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.3.0.0\ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/Atul/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/oraclepki.jar
+[2022-03-12T10:01:02.002Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-03-12T10:01:02.002Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-03-12T10:01:05.005Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-03-12T10:01:05.005Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 145 ms. Found 1 JPA repository interfaces.
+[2022-03-12T10:01:08.008Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8082 (http)
+[2022-03-12T10:01:08.008Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-03-12T10:01:08.008Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.56]
+[2022-03-12T10:01:09.009Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-03-12T10:01:09.009Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [290] [INFO ] Root WebApplicationContext: initialization completed in 6563 ms
+[2022-03-12T10:01:10.010Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-03-12T10:01:10.010Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.4.Final
+[2022-03-12T10:01:11.011Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-03-12T10:01:11.011Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2022-03-12T10:01:14.014Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2022-03-12T10:01:14.014Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2022-03-12T10:01:15.015Z] [org.hibernate.id.SequenceGenerator] [restartedMain] [89] [WARN ] HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+[2022-03-12T10:01:19.019Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-03-12T10:01:19.019Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-03-12T10:01:24.024Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-03-12T10:01:25.025Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [61] [WARN ] Unable to start LiveReload server
+[2022-03-12T10:01:25.025Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8082 (http) with context path ''
+[2022-03-12T10:01:25.025Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started UserServiceApplication in 23.994 seconds (JVM running for 27.571)
+[2022-03-12T10:02:07.007Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8082-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-03-12T10:02:07.007Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-03-12T10:02:07.007Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-1] [547] [INFO ] Completed initialization in 7 ms
+[2022-03-12T10:02:10.010Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-1] [34] [INFO ] [User [id=1, name=sandip, email=sandip@gmail.com, city=mumbai]]
+[2022-03-12T10:03:07.007Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-2] [40] [INFO ] User [id=1, name=sandip, email=sandip@gmail.com, city=PUNE]
+[2022-03-12T10:03:09.009Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-2] [42] [INFO ] record updated successfully
+[2022-03-12T10:04:18.018Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-4] [40] [INFO ] User [id=1, name=sandip, email=sandip@gmail.com, city=NAGPUR]
+[2022-03-12T10:04:18.018Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-4] [42] [INFO ] record updated successfully
+[2022-03-12T10:04:33.033Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-5] [34] [INFO ] [User [id=1, name=sandip, email=sandip@gmail.com, city=NAGPUR]]
+[2022-03-12T11:02:20.020Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8082-exec-7] [175] [ERROR] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: Ambiguous handler methods mapped for '/users/NAGPUR': {public java.util.List com.edusol.user.controller.UserController.getUsersByEmail(java.lang.String), public java.util.List com.edusol.user.controller.UserController.getUsersByCityName(java.lang.String)}] with root cause
+java.lang.IllegalStateException: Ambiguous handler methods mapped for '/users/NAGPUR': {public java.util.List com.edusol.user.controller.UserController.getUsersByEmail(java.lang.String), public java.util.List com.edusol.user.controller.UserController.getUsersByCityName(java.lang.String)}
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:432)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:383)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:125)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1261)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1043)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+[2022-03-12T11:05:25.025Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-1] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-03-12T11:05:26.026Z] [com.zaxxer.hikari.HikariDataSource] [Thread-1] [350] [INFO ] HikariPoolBooks - Shutdown initiated...
+[2022-03-12T11:05:26.026Z] [com.zaxxer.hikari.HikariDataSource] [Thread-1] [352] [INFO ] HikariPoolBooks - Shutdown completed.
+[2022-03-12T11:05:34.034Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting UserServiceApplication using Java 1.8.0_211 on DESKTOP-OULUVO9 with PID 224 (E:\Java Contents\user\target\classes started by Atul in E:\Java Contents\user)
+[2022-03-12T11:05:34.034Z] [org.springframework.boot.SpringApplication] [restartedMain] [637] [INFO ] No active profile set, falling back to default profiles: default
+[2022-03-12T11:05:37.037Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-03-12T11:05:37.037Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 127 ms. Found 1 JPA repository interfaces.
+[2022-03-12T11:05:42.042Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8082 (http)
+[2022-03-12T11:05:42.042Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-03-12T11:05:42.042Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.56]
+[2022-03-12T11:05:42.042Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-03-12T11:05:42.042Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [290] [INFO ] Root WebApplicationContext: initialization completed in 7704 ms
+[2022-03-12T11:05:43.043Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-03-12T11:05:43.043Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2022-03-12T11:05:43.043Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2022-03-12T11:05:43.043Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2022-03-12T11:05:44.044Z] [org.hibernate.id.SequenceGenerator] [restartedMain] [89] [WARN ] HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+[2022-03-12T11:05:47.047Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-03-12T11:05:47.047Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-03-12T11:05:48.048Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-03-12T11:05:49.049Z] [org.springframework.context.support.AbstractApplicationContext] [restartedMain] [591] [WARN ] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+com.edusol.user.controller.UserController#getAllUsers()
+to {GET [/users]}: There is already 'userController' bean method
+com.edusol.user.controller.UserController#getUsersByCityName(String) mapped.
+[2022-03-12T11:05:49.049Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-03-12T11:05:49.049Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [350] [INFO ] HikariPoolBooks - Shutdown initiated...
+[2022-03-12T11:05:49.049Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [352] [INFO ] HikariPoolBooks - Shutdown completed.
+[2022-03-12T11:05:49.049Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Stopping service [Tomcat]
+[2022-03-12T11:05:49.049Z] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [restartedMain] [136] [INFO ] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2022-03-12T11:05:49.049Z] [org.springframework.boot.SpringApplication] [restartedMain] [821] [ERROR] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+com.edusol.user.controller.UserController#getAllUsers()
+to {GET [/users]}: There is already 'userController' bean method
+com.edusol.user.controller.UserController#getUsersByCityName(String) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:414)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.edusol.user.UserServiceApplication.main(UserServiceApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+com.edusol.user.controller.UserController#getAllUsers()
+to {GET [/users]}: There is already 'userController' bean method
+com.edusol.user.controller.UserController#getUsersByCityName(String) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:420)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299)
+	at java.util.LinkedHashMap.forEach(Unknown Source)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 21 common frames omitted
+[2022-03-12T11:06:47.047Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting UserServiceApplication using Java 1.8.0_211 on DESKTOP-OULUVO9 with PID 224 (E:\Java Contents\user\target\classes started by Atul in E:\Java Contents\user)
+[2022-03-12T11:06:47.047Z] [org.springframework.boot.SpringApplication] [restartedMain] [637] [INFO ] No active profile set, falling back to default profiles: default
+[2022-03-12T11:06:49.049Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-03-12T11:06:49.049Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 116 ms. Found 1 JPA repository interfaces.
+[2022-03-12T11:06:50.050Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8082 (http)
+[2022-03-12T11:06:50.050Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-03-12T11:06:50.050Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.56]
+[2022-03-12T11:06:50.050Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-03-12T11:06:50.050Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [290] [INFO ] Root WebApplicationContext: initialization completed in 3055 ms
+[2022-03-12T11:06:51.051Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-03-12T11:06:51.051Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2022-03-12T11:06:51.051Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2022-03-12T11:06:51.051Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2022-03-12T11:06:51.051Z] [org.hibernate.id.SequenceGenerator] [restartedMain] [89] [WARN ] HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+[2022-03-12T11:06:53.053Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-03-12T11:06:53.053Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-03-12T11:06:53.053Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-03-12T11:06:53.053Z] [org.springframework.context.support.AbstractApplicationContext] [restartedMain] [591] [WARN ] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+com.edusol.user.controller.UserController#getAllUsers()
+to {GET [/users]}: There is already 'userController' bean method
+com.edusol.user.controller.UserController#getUsersByCityName(String) mapped.
+[2022-03-12T11:06:53.053Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [651] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-03-12T11:06:53.053Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [350] [INFO ] HikariPoolBooks - Shutdown initiated...
+[2022-03-12T11:06:53.053Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [352] [INFO ] HikariPoolBooks - Shutdown completed.
+[2022-03-12T11:06:53.053Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Stopping service [Tomcat]
+[2022-03-12T11:06:53.053Z] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [restartedMain] [136] [INFO ] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2022-03-12T11:06:53.053Z] [org.springframework.boot.SpringApplication] [restartedMain] [821] [ERROR] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+com.edusol.user.controller.UserController#getAllUsers()
+to {GET [/users]}: There is already 'userController' bean method
+com.edusol.user.controller.UserController#getUsersByCityName(String) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:414)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.edusol.user.UserServiceApplication.main(UserServiceApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userController' method 
+com.edusol.user.controller.UserController#getAllUsers()
+to {GET [/users]}: There is already 'userController' bean method
+com.edusol.user.controller.UserController#getUsersByCityName(String) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:420)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299)
+	at java.util.LinkedHashMap.forEach(Unknown Source)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 21 common frames omitted
+[2022-03-12T11:19:28.028Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting UserServiceApplication using Java 1.8.0_211 on DESKTOP-OULUVO9 with PID 224 (E:\Java Contents\user\target\classes started by Atul in E:\Java Contents\user)
+[2022-03-12T11:19:28.028Z] [org.springframework.boot.SpringApplication] [restartedMain] [637] [INFO ] No active profile set, falling back to default profiles: default
+[2022-03-12T11:19:31.031Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-03-12T11:19:32.032Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 157 ms. Found 1 JPA repository interfaces.
+[2022-03-12T11:19:34.034Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8082 (http)
+[2022-03-12T11:19:34.034Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-03-12T11:19:34.034Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.56]
+[2022-03-12T11:19:34.034Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-03-12T11:19:34.034Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [290] [INFO ] Root WebApplicationContext: initialization completed in 6181 ms
+[2022-03-12T11:19:35.035Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-03-12T11:19:35.035Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2022-03-12T11:19:36.036Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2022-03-12T11:19:36.036Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2022-03-12T11:19:37.037Z] [org.hibernate.id.SequenceGenerator] [restartedMain] [89] [WARN ] HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+[2022-03-12T11:19:41.041Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-03-12T11:19:41.041Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-03-12T11:19:41.041Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-03-12T11:19:42.042Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [61] [WARN ] Unable to start LiveReload server
+[2022-03-12T11:19:42.042Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8082 (http) with context path ''
+[2022-03-12T11:19:42.042Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started UserServiceApplication in 18.494 seconds (JVM running for 4725.069)
+[2022-03-12T11:19:43.043Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2022-03-12T11:20:34.034Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8082-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-03-12T11:20:34.034Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-03-12T11:20:34.034Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-1] [547] [INFO ] Completed initialization in 4 ms
+[2022-03-12T11:20:35.035Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-1] [66] [INFO ] Getting user details by:NAGPUR
+[2022-03-13T12:53:35.035Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting UserServiceApplication using Java 1.8.0_211 on DESKTOP-OULUVO9 with PID 10940 (E:\Java Contents\user\target\classes started by Atul in E:\Java Contents\user)
+[2022-03-13T12:53:35.035Z] [org.springframework.boot.SpringApplication] [restartedMain] [640] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2022-03-13T12:53:35.035Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] The Class-Path manifest attribute in C:\Users\Atul\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.3.0.0\ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/Atul/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/oraclepki.jar
+[2022-03-13T12:53:35.035Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-03-13T12:53:35.035Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-03-13T12:53:40.040Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-03-13T12:53:41.041Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 1136 ms. Found 1 JPA repository interfaces.
+[2022-03-13T12:53:42.042Z] [org.springframework.cloud.context.scope.GenericScope] [restartedMain] [283] [INFO ] BeanFactory id=5049730a-02b8-364e-8ab4-75c8577d8fcf
+[2022-03-13T12:53:49.049Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8082 (http)
+[2022-03-13T12:53:49.049Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-03-13T12:53:49.049Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.58]
+[2022-03-13T12:53:49.049Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-03-13T12:53:49.049Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [290] [INFO ] Root WebApplicationContext: initialization completed in 14030 ms
+[2022-03-13T12:53:51.051Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-03-13T12:53:51.051Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-03-13T12:53:52.052Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-03-13T12:53:53.053Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2022-03-13T12:54:01.001Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2022-03-13T12:54:01.001Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2022-03-13T12:54:04.004Z] [org.hibernate.id.SequenceGenerator] [restartedMain] [89] [WARN ] HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+[2022-03-13T12:54:12.012Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-03-13T12:54:12.012Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-03-13T12:54:15.015Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-03-13T12:54:17.017Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [61] [WARN ] Unable to start LiveReload server
+[2022-03-13T12:54:19.019Z] [org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration] [restartedMain] [68] [INFO ] Eureka HTTP Client uses RestTemplate.
+[2022-03-13T12:54:21.021Z] [org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger] [restartedMain] [82] [WARN ] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2022-03-13T12:54:22.022Z] [org.springframework.cloud.netflix.eureka.InstanceInfoFactory] [restartedMain] [67] [INFO ] Setting initial instance status as: STARTING
+[2022-03-13T12:54:22.022Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [372] [INFO ] Initializing Eureka in region us-east-1
+[2022-03-13T12:54:22.022Z] [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver] [restartedMain] [43] [INFO ] Resolving eureka endpoints via configuration
+[2022-03-13T12:54:22.022Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [1007] [INFO ] Disable delta property : false
+[2022-03-13T12:54:22.022Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [1008] [INFO ] Single vip registry refresh property : null
+[2022-03-13T12:54:22.022Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [1009] [INFO ] Force full registry fetch : false
+[2022-03-13T12:54:22.022Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [1010] [INFO ] Application is null : false
+[2022-03-13T12:54:22.022Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [1011] [INFO ] Registered Applications size is zero : true
+[2022-03-13T12:54:22.022Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [1013] [INFO ] Application version is -1: true
+[2022-03-13T12:54:22.022Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [1097] [INFO ] Getting all instance registry info from the eureka server
+[2022-03-13T12:54:24.024Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [1106] [INFO ] The response status is 200
+[2022-03-13T12:54:24.024Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [1321] [INFO ] Starting heartbeat executor: renew interval is: 30
+[2022-03-13T12:54:24.024Z] [com.netflix.discovery.InstanceInfoReplicator] [restartedMain] [60] [INFO ] InstanceInfoReplicator onDemand update allowed rate per min is 4
+[2022-03-13T12:54:24.024Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [492] [INFO ] Discovery Client initialized at timestamp 1647156264681 with initial instances count: 1
+[2022-03-13T12:54:24.024Z] [org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry] [restartedMain] [41] [INFO ] Registering application USER-SERVICE with eureka with status UP
+[2022-03-13T12:54:24.024Z] [com.netflix.discovery.DiscoveryClient$3] [restartedMain] [1352] [INFO ] Saw local status change event StatusChangeEvent [timestamp=1647156264786, current=UP, previous=STARTING]
+[2022-03-13T12:54:24.024Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-InstanceInfoReplicator-0] [873] [INFO ] DiscoveryClient_USER-SERVICE/DESKTOP-OULUVO9:user-service:8082: registering service...
+[2022-03-13T12:54:25.025Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8082 (http) with context path ''
+[2022-03-13T12:54:25.025Z] [org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration] [restartedMain] [144] [INFO ] Updating port to 8082
+[2022-03-13T12:54:25.025Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-InstanceInfoReplicator-0] [882] [INFO ] DiscoveryClient_USER-SERVICE/DESKTOP-OULUVO9:user-service:8082 - registration status: 204
+[2022-03-13T12:54:26.026Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started UserServiceApplication in 53.679 seconds (JVM running for 57.536)
+[2022-03-13T12:54:48.048Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8082-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-03-13T12:54:48.048Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2022-03-13T12:54:48.048Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8082-exec-1] [547] [INFO ] Completed initialization in 4 ms
+[2022-03-13T12:55:02.002Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-5] [34] [INFO ] [User [id=1, name=sandip, email=sandip@gmail.com, city=NAGPUR]]
+[2022-03-13T12:59:23.023Z] [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver] [AsyncResolver-bootstrap-executor-0] [43] [INFO ] Resolving eureka endpoints via configuration
+[2022-03-13T13:02:23.023Z] [com.edusol.user.service.UserService] [http-nio-8082-exec-10] [34] [INFO ] [User [id=1, name=sandip, email=sandip@gmail.com, city=NAGPUR]]
+[2022-03-13T13:04:24.024Z] [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver] [AsyncResolver-bootstrap-executor-0] [43] [INFO ] Resolving eureka endpoints via configuration
+[2022-03-13T13:09:24.024Z] [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver] [AsyncResolver-bootstrap-executor-0] [43] [INFO ] Resolving eureka endpoints via configuration
+[2022-03-13T13:14:26.026Z] [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver] [AsyncResolver-bootstrap-executor-0] [43] [INFO ] Resolving eureka endpoints via configuration
+[2022-03-13T13:19:28.028Z] [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver] [AsyncResolver-bootstrap-executor-0] [43] [INFO ] Resolving eureka endpoints via configuration
+[2022-03-13T13:20:18.018Z] [org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry] [Thread-1] [62] [INFO ] Unregistering application USER-SERVICE with eureka with status DOWN
+[2022-03-13T13:20:20.020Z] [com.netflix.discovery.DiscoveryClient$3] [Thread-1] [1352] [INFO ] Saw local status change event StatusChangeEvent [timestamp=1647157820621, current=DOWN, previous=UP]
+[2022-03-13T13:20:23.023Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-InstanceInfoReplicator-0] [873] [INFO ] DiscoveryClient_USER-SERVICE/DESKTOP-OULUVO9:user-service:8082: registering service...
+[2022-03-13T13:20:42.042Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-HeartbeatExecutor-0] [897] [INFO ] DiscoveryClient_USER-SERVICE/DESKTOP-OULUVO9:user-service:8082 - Re-registering apps/USER-SERVICE
+[2022-03-13T13:20:42.042Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-HeartbeatExecutor-0] [873] [INFO ] DiscoveryClient_USER-SERVICE/DESKTOP-OULUVO9:user-service:8082: registering service...
+[2022-03-13T13:30:17.017Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting UserServiceApplication using Java 1.8.0_211 on DESKTOP-OULUVO9 with PID 12972 (E:\Java Contents\user\target\classes started by Atul in E:\Java Contents\user)
+[2022-03-13T13:30:19.019Z] [org.springframework.boot.SpringApplication] [restartedMain] [640] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2022-03-13T13:30:19.019Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] The Class-Path manifest attribute in C:\Users\Atul\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.3.0.0\ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/Atul/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.3.0.0/oraclepki.jar
+[2022-03-13T13:30:19.019Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-03-13T13:30:19.019Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-03-13T13:30:26.026Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-03-13T13:30:27.027Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [201] [INFO ] Finished Spring Data repository scanning in 1310 ms. Found 1 JPA repository interfaces.
+[2022-03-13T13:30:28.028Z] [org.springframework.cloud.context.scope.GenericScope] [restartedMain] [283] [INFO ] BeanFactory id=5049730a-02b8-364e-8ab4-75c8577d8fcf
+[2022-03-13T13:30:39.039Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8082 (http)
+[2022-03-13T13:30:39.039Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2022-03-13T13:30:39.039Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.58]
+[2022-03-13T13:30:39.039Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2022-03-13T13:30:39.039Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [290] [INFO ] Root WebApplicationContext: initialization completed in 20114 ms
+[2022-03-13T13:30:43.043Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-03-13T13:30:43.043Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.5.Final
+[2022-03-13T13:30:51.051Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-03-13T13:30:51.051Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2022-03-13T13:31:21.021Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2022-03-13T13:31:21.021Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2022-03-13T13:31:30.030Z] [org.hibernate.id.SequenceGenerator] [restartedMain] [89] [WARN ] HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+[2022-03-13T13:32:11.011Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-03-13T13:32:11.011Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-03-13T13:32:13.013Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-03-13T13:32:20.020Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [61] [WARN ] Unable to start LiveReload server
+[2022-03-13T13:32:21.021Z] [org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration] [restartedMain] [68] [INFO ] Eureka HTTP Client uses RestTemplate.
+[2022-03-13T13:32:23.023Z] [org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger] [restartedMain] [82] [WARN ] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+[2022-03-13T13:32:23.023Z] [org.springframework.cloud.netflix.eureka.InstanceInfoFactory] [restartedMain] [67] [INFO ] Setting initial instance status as: STARTING
+[2022-03-13T13:32:25.025Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [372] [INFO ] Initializing Eureka in region us-east-1
+[2022-03-13T13:32:25.025Z] [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver] [restartedMain] [43] [INFO ] Resolving eureka endpoints via configuration
+[2022-03-13T13:32:25.025Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [1007] [INFO ] Disable delta property : false
+[2022-03-13T13:32:25.025Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [1008] [INFO ] Single vip registry refresh property : null
+[2022-03-13T13:32:25.025Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [1009] [INFO ] Force full registry fetch : false
+[2022-03-13T13:32:25.025Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [1010] [INFO ] Application is null : false
+[2022-03-13T13:32:25.025Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [1011] [INFO ] Registered Applications size is zero : true
+[2022-03-13T13:32:25.025Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [1013] [INFO ] Application version is -1: true
+[2022-03-13T13:32:25.025Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [1097] [INFO ] Getting all instance registry info from the eureka server
+[2022-03-13T13:34:32.032Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [1106] [INFO ] The response status is 200
+[2022-03-13T13:34:32.032Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [1321] [INFO ] Starting heartbeat executor: renew interval is: 1
+[2022-03-13T13:34:32.032Z] [com.netflix.discovery.InstanceInfoReplicator] [restartedMain] [60] [INFO ] InstanceInfoReplicator onDemand update allowed rate per min is 4
+[2022-03-13T13:34:32.032Z] [com.netflix.discovery.DiscoveryClient] [restartedMain] [492] [INFO ] Discovery Client initialized at timestamp 1647158672746 with initial instances count: 0
+[2022-03-13T13:34:32.032Z] [org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry] [restartedMain] [41] [INFO ] Registering application USER-SERVICE with eureka with status UP
+[2022-03-13T13:34:32.032Z] [com.netflix.discovery.DiscoveryClient$3] [restartedMain] [1352] [INFO ] Saw local status change event StatusChangeEvent [timestamp=1647158672868, current=UP, previous=STARTING]
+[2022-03-13T13:34:32.032Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-InstanceInfoReplicator-0] [873] [INFO ] DiscoveryClient_USER-SERVICE/DESKTOP-OULUVO9:user-service:8082: registering service...
+[2022-03-13T13:34:33.033Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8082 (http) with context path ''
+[2022-03-13T13:34:33.033Z] [org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration] [restartedMain] [144] [INFO ] Updating port to 8082
+[2022-03-13T13:34:35.035Z] [com.netflix.discovery.TimedSupervisorTask] [DiscoveryClient-0] [73] [WARN ] task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:68)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2022-03-13T13:34:35.035Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started UserServiceApplication in 262.122 seconds (JVM running for 277.471)
+[2022-03-13T13:34:38.038Z] [com.netflix.discovery.TimedSupervisorTask] [DiscoveryClient-0] [73] [WARN ] task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:68)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2022-03-13T13:34:38.038Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-HeartbeatExecutor-0] [897] [INFO ] DiscoveryClient_USER-SERVICE/DESKTOP-OULUVO9:user-service:8082 - Re-registering apps/USER-SERVICE
+[2022-03-13T13:34:38.038Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-HeartbeatExecutor-0] [873] [INFO ] DiscoveryClient_USER-SERVICE/DESKTOP-OULUVO9:user-service:8082: registering service...
+[2022-03-13T13:34:38.038Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-HeartbeatExecutor-1] [897] [INFO ] DiscoveryClient_USER-SERVICE/DESKTOP-OULUVO9:user-service:8082 - Re-registering apps/USER-SERVICE
+[2022-03-13T13:34:38.038Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-HeartbeatExecutor-1] [873] [INFO ] DiscoveryClient_USER-SERVICE/DESKTOP-OULUVO9:user-service:8082: registering service...
+[2022-03-13T13:34:42.042Z] [com.netflix.discovery.TimedSupervisorTask] [DiscoveryClient-1] [84] [WARN ] task supervisor rejected the task
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@2802b13e rejected from java.util.concurrent.ThreadPoolExecutor@26c54a4e[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.reject(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.execute(Unknown Source)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:66)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2022-03-13T13:34:46.046Z] [com.netflix.discovery.TimedSupervisorTask] [DiscoveryClient-1] [84] [WARN ] task supervisor rejected the task
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@22fada4e rejected from java.util.concurrent.ThreadPoolExecutor@26c54a4e[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.reject(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.execute(Unknown Source)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:66)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2022-03-13T13:34:50.050Z] [com.netflix.discovery.TimedSupervisorTask] [DiscoveryClient-1] [84] [WARN ] task supervisor rejected the task
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@67f84075 rejected from java.util.concurrent.ThreadPoolExecutor@26c54a4e[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.reject(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.execute(Unknown Source)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:66)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2022-03-13T13:34:51.051Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-InstanceInfoReplicator-0] [882] [INFO ] DiscoveryClient_USER-SERVICE/DESKTOP-OULUVO9:user-service:8082 - registration status: 204
+[2022-03-13T13:34:51.051Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-HeartbeatExecutor-0] [882] [INFO ] DiscoveryClient_USER-SERVICE/DESKTOP-OULUVO9:user-service:8082 - registration status: 204
+[2022-03-13T13:34:51.051Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-HeartbeatExecutor-1] [882] [INFO ] DiscoveryClient_USER-SERVICE/DESKTOP-OULUVO9:user-service:8082 - registration status: 204
+[2022-03-13T13:35:02.002Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-CacheRefreshExecutor-0] [1007] [INFO ] Disable delta property : false
+[2022-03-13T13:35:02.002Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-CacheRefreshExecutor-0] [1008] [INFO ] Single vip registry refresh property : null
+[2022-03-13T13:35:02.002Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-CacheRefreshExecutor-0] [1009] [INFO ] Force full registry fetch : false
+[2022-03-13T13:35:02.002Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-CacheRefreshExecutor-0] [1010] [INFO ] Application is null : false
+[2022-03-13T13:35:02.002Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-CacheRefreshExecutor-0] [1011] [INFO ] Registered Applications size is zero : true
+[2022-03-13T13:35:02.002Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-CacheRefreshExecutor-0] [1013] [INFO ] Application version is -1: false
+[2022-03-13T13:35:02.002Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-CacheRefreshExecutor-0] [1097] [INFO ] Getting all instance registry info from the eureka server
+[2022-03-13T13:35:02.002Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-CacheRefreshExecutor-0] [1106] [INFO ] The response status is 200
+[2022-03-13T13:35:12.012Z] [com.netflix.discovery.TimedSupervisorTask] [DiscoveryClient-1] [73] [WARN ] task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:68)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2022-03-13T13:35:32.032Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-CacheRefreshExecutor-0] [1007] [INFO ] Disable delta property : false
+[2022-03-13T13:35:32.032Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-CacheRefreshExecutor-0] [1008] [INFO ] Single vip registry refresh property : null
+[2022-03-13T13:35:32.032Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-CacheRefreshExecutor-0] [1009] [INFO ] Force full registry fetch : false
+[2022-03-13T13:35:32.032Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-CacheRefreshExecutor-0] [1010] [INFO ] Application is null : false
+[2022-03-13T13:35:32.032Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-CacheRefreshExecutor-0] [1011] [INFO ] Registered Applications size is zero : true
+[2022-03-13T13:35:32.032Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-CacheRefreshExecutor-0] [1013] [INFO ] Application version is -1: false
+[2022-03-13T13:35:32.032Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-CacheRefreshExecutor-0] [1097] [INFO ] Getting all instance registry info from the eureka server
+[2022-03-13T13:35:32.032Z] [com.netflix.discovery.DiscoveryClient] [DiscoveryClient-CacheRefreshExecutor-0] [1106] [INFO ] The response status is 200
+[2022-03-13T13:37:14.014Z] [com.netflix.discovery.TimedSupervisorTask] [DiscoveryClient-1] [73] [WARN ] task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:68)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2022-03-13T13:37:25.025Z] [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver] [AsyncResolver-bootstrap-executor-0] [43] [INFO ] Resolving eureka endpoints via configuration
+[2022-03-13T13:42:25.025Z] [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver] [AsyncResolver-bootstrap-executor-0] [43] [INFO ] Resolving eureka endpoints via configuration
